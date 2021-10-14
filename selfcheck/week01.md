@@ -23,10 +23,10 @@ a Java osztályokat fogjátok alapszinten megismerni.
 
 * [X] [Kiírás és beolvasás konzolról videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709894-kiiras-es-beolvasas-konzolrol)
 * [X] Kiírás és beolvasás konzolról gyakorlati feladat
-* [ ] [Objektumok és attribútumok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709892-objektumok-es-attributumok)
-* [ ] Objektumok és attribútumok gyakorlati feladat
-* [ ] [Metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709890-metodusok)
-* [ ] Metódusok gyakorlati feladat
+* [X] [Objektumok és attribútumok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709892-objektumok-es-attributumok)
+* [X] Objektumok és attribútumok gyakorlati feladat
+* [X] [Metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709890-metodusok)
+* [X] Metódusok gyakorlati feladat
 * [ ] [Konstruktorok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709840-konstruktorok)
 * [ ] Konstruktorok gyakorlati feladat
 * [ ] [UML, példányok konzol íráskor/olvasáskor videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709862-uml-peldanyok-konzol-iraskor-olvasaskor)
@@ -38,7 +38,7 @@ a Java osztályokat fogjátok alapszinten megismerni.
 * [X] 2021-10-11 konzultáció gyakorlati feladat
 * [X] 2021-10-12 konzultáció részvétel/videó
 * [X] 2021-10-12 konzultáció gyakorlati feladat
-* [ ] 2021-10-14 konzultáció részvétel/videó
-* [ ] 2021-10-14 konzultáció gyakorlati feladat
+* [X] 2021-10-14 konzultáció részvétel/videó
+* [X] 2021-10-14 konzultáció gyakorlati feladat
 * [ ] 2021-10-15 konzultáció részvétel/videó
 * [ ] 2021-10-15 konzultáció gyakorlati feladat
