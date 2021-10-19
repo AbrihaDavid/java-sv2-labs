@@ -11,14 +11,14 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 * [X] Literálok és lokális változók gyakorlati feladat
 * [X] [Kifejezések és utasítások videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709849-kifejezesek-es-utasitasok)
 * [X] Kifejezések és utasítások gyakorlati feladat
-* [ ] [Csomagok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709796-csomagok)
-* [ ] Csomagok gyakorlati feladat
-* [ ] [Java API videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709757-java-api)
-* [ ] Java API gyakorlati feladat
-* [ ] [JAR állomány videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709835-jar-allomany)
-* [ ] JAR állomány gyakorlati feladat
-* [ ] [Szöveges típus](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709758-szoveges-tipus)
-* [ ] Szöveges típus gyakorlati feladat
+* [X] [Csomagok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709796-csomagok)
+* [X] Csomagok gyakorlati feladat
+* [X] [Java API videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709757-java-api)
+* [X] Java API gyakorlati feladat
+* [X] [JAR állomány videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709835-jar-allomany)
+* [X] JAR állomány gyakorlati feladat
+* [X] [Szöveges típus](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709758-szoveges-tipus)
+* [X] Szöveges típus gyakorlati feladat
 * [ ] [Sortörés kezelése](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28188842-sortores-kezelese)
 * [ ] Sortörés kezelése gyakorlati feladat
 * [ ] [Dátum és időkezelés alapok](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709798-datum-es-idokezeles-alapok)
@@ -55,8 +55,8 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 
 * [X] 2021-10-18 konzultáció részvétel/videó
 * [X] 2021-10-18 konzultáció gyakorlati feladat
-* [ ] 2021-10-19 konzultáció részvétel/videó
-* [ ] 2021-10-19 konzultáció gyakorlati feladat
+* [X] 2021-10-19 konzultáció részvétel/videó
+* [X] 2021-10-19 konzultáció gyakorlati feladat
 * [ ] 2021-10-21 konzultáció részvétel/videó
 * [ ] 2021-10-21 konzultáció gyakorlati feladat
 * [ ] 2021-10-22 konzultáció részvétel/videó
