@@ -16,7 +16,6 @@ public class Triangular {
     public static void main(String[] args) {
 
         Triangular triangular = new Triangular();
-        triangular.triangularMatrix(4);
         for (int []i: triangular.triangularMatrix(4)){
             for (int k: i){
                 System.out.print(k+ " ");
