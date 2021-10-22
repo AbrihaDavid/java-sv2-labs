@@ -19,27 +19,27 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 * [X] JAR állomány gyakorlati feladat
 * [X] [Szöveges típus](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709758-szoveges-tipus)
 * [X] Szöveges típus gyakorlati feladat
-* [ ] [Sortörés kezelése](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28188842-sortores-kezelese)
-* [ ] Sortörés kezelése gyakorlati feladat
-* [ ] [Dátum és időkezelés alapok](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709798-datum-es-idokezeles-alapok)
-* [ ] Dátum és időkezelés alapok gyakorlati feladat
-* [ ] [Bevezetés a vezérlési szerkezetekbe](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709782-bevezetes-a-vezerlesi-szerkezetekbe)
-* [ ] Bevezetés a vezérlési szerkezetekbe gyakorlati feladat
+* [X] [Sortörés kezelése](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28188842-sortores-kezelese)
+* [X] Sortörés kezelése gyakorlati feladat
+* [X] [Dátum és időkezelés alapok](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709798-datum-es-idokezeles-alapok)
+* [X] Dátum és időkezelés alapok gyakorlati feladat
+* [X] [Bevezetés a vezérlési szerkezetekbe](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709782-bevezetes-a-vezerlesi-szerkezetekbe)
+* [X] Bevezetés a vezérlési szerkezetekbe gyakorlati feladat
 
 ## Bonyolultabb típusok
 
-* [ ] [Tömbök](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709784-tombok)
-* [ ] Tömbök gyakorlati feladat
-* [ ] [Parancssori paraméterek](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/17496052-parancssori-parameterek)
-* [ ] Parancssori paraméterek gyakorlati feladat
-* [ ] [Tömbök tömbje](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709631-tombok-tombje)
-* [ ] Tömbök tömbje gyakorlati feladat
-* [ ] [Tömbök kezelése](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709801-tombok-kezelese)
-* [ ] Tömbök kezelése gyakorlati feladat
-* [ ] [Lista](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709852-lista)
-* [ ] Lista gyakorlati feladat
-* [ ] [Lista létrehozása](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993631-lista-letrehozasa)
-* [ ] Lista létrehozása gyakorlati feladat
+* [X] [Tömbök](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709784-tombok)
+* [X] Tömbök gyakorlati feladat
+* [X] [Parancssori paraméterek](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/17496052-parancssori-parameterek)
+* [X] Parancssori paraméterek gyakorlati feladat
+* [X] [Tömbök tömbje](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709631-tombok-tombje)
+* [X] Tömbök tömbje gyakorlati feladat
+* [X] [Tömbök kezelése](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709801-tombok-kezelese)
+* [X] Tömbök kezelése gyakorlati feladat
+* [X] [Lista](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709852-lista)
+* [X] Lista gyakorlati feladat
+* [X] [Lista létrehozása](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993631-lista-letrehozasa)
+* [X] Lista létrehozása gyakorlati feladat
 * [ ] [Ciklusok fajtái](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993677-ciklusok-fajtai)
 * [ ] Ciklusok fajtái gyakorlati feladat
 * [ ] [Módosítás bejáráskor](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993685-modositas-bejaraskor)
@@ -57,7 +57,7 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 * [X] 2021-10-18 konzultáció gyakorlati feladat
 * [X] 2021-10-19 konzultáció részvétel/videó
 * [X] 2021-10-19 konzultáció gyakorlati feladat
-* [ ] 2021-10-21 konzultáció részvétel/videó
-* [ ] 2021-10-21 konzultáció gyakorlati feladat
-* [ ] 2021-10-22 konzultáció részvétel/videó
-* [ ] 2021-10-22 konzultáció gyakorlati feladat
+* [X] 2021-10-21 konzultáció részvétel/videó
+* [X] 2021-10-21 konzultáció gyakorlati feladat
+* [X] 2021-10-22 konzultáció részvétel/videó
+* [X] 2021-10-22 konzultáció gyakorlati feladat
