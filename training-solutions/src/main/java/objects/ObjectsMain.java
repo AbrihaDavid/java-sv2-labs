@@ -1,5 +1,9 @@
 package objects;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ObjectsMain {
 
     public static void main(String[] args) {
@@ -25,5 +29,19 @@ public class ObjectsMain {
         System.out.println(book == anotherBook);
 
 
+        Book book1 = new Book();
+        Book book2 = new Book();
+        Book book3 = new Book();
+        Book[] bookArray = {book1,book2,book3};
+
+        List<Book> bookList = Arrays.asList(book1,book2,book3);
+        List<Book> bookListEmpty = new ArrayList<>();
+        bookListEmpty.add(book1);
+        bookListEmpty.add(book2);
+        bookListEmpty.add(book3);
+
+        System.out.println(Arrays.toString(bookArray));
+        System.out.println(bookList);
+        System.out.println(bookListEmpty);
     }
 }
