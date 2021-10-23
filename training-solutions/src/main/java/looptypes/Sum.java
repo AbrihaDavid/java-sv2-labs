@@ -11,7 +11,6 @@ public class Sum {
     public static void main(String[] args) {
         Sum sum = new Sum();
         int[] numbers = {2,3,4,5,6,7};
-
         sum.printSums(numbers);
     }
 }
