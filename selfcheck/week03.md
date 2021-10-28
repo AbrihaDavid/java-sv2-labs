@@ -42,14 +42,14 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 
 ## Részletesen a szöveges típusról
 
-* [ ] [String alapok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710528-string-alapok)
-* [ ] String alapok gyakorlati feladat
-* [ ] [Konkatenáció videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710386-konkatenacio)
-* [ ] Konkatenáció gyakorlati feladat
-* [ ] [Főbb String metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710533-fobb-string-metodusok)
-* [ ] Főbb String metódusok gyakorlati feladat
-* [ ] [StringBuilder videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710420-stringbuilder)
-* [ ] StringBuilder gyakorlati feladat
+* [X] [String alapok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710528-string-alapok)
+* [X] String alapok gyakorlati feladat
+* [X] [Konkatenáció videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710386-konkatenacio)
+* [X] Konkatenáció gyakorlati feladat
+* [X] [Főbb String metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710533-fobb-string-metodusok)
+* [X] Főbb String metódusok gyakorlati feladat
+* [X] [StringBuilder videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710420-stringbuilder)
+* [X] StringBuilder gyakorlati feladat
 * [ ] Szövegek elválasztása vesszővel gyakorlati feladat [(Szöveges anyag itt)](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/texts/28335421-szovegek-elvalasztasa-vesszovel)
 * [ ] [Scanner videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710394-scanner)
 * [ ] Scanner gyakorlati feladat
@@ -62,7 +62,7 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 * [X] 2021-10-25 konzultáció gyakorlati feladat
 * [X] 2021-10-26 konzultáció részvétel/videó
 * [X] 2021-10-26 konzultáció gyakorlati feladat
-* [ ] 2021-10-28 konzultáció részvétel/videó
-* [ ] 2021-10-28 konzultáció gyakorlati feladat
+* [X] 2021-10-28 konzultáció részvétel/videó
+* [X] 2021-10-28 konzultáció gyakorlati feladat
 * [ ] 2021-10-29 konzultáció részvétel/videó
 * [ ] 2021-10-29 konzultáció gyakorlati feladat
