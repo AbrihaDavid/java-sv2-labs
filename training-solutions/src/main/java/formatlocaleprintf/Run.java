@@ -29,9 +29,10 @@ public class Run {
 
     public void printFormattedRunText(){
         LocalDate localDate = LocalDate.now();
-        System.out.printf("Kedves %s! A mai dátum: %s. Ezen a héten ez a(z) %d futásod.",getName(),localDate.toString(),kms.size());
-        System.out.println();
-        System.out.printf("Most %.2f km-t futottál. Csak így tovább!",getKms().get(kms.size()-1));
+        String s = String.format("Kedves %s! A mai dátum: %s. Ezen a héten ez a(z) %d futásod.",getName(),localDate.toString(),kms.size());
+        System.out.println(s);
+        String s2 = String.format("Most %.2f km-t futottál. Csak így tovább!",getKms().get(kms.size()-1));
+        System.out.println(s2);
     }
 
     public static void main(String[] args) {
