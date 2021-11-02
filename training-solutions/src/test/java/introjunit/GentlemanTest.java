@@ -1,16 +1,20 @@
 package introjunit;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.junit.Assert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class GentlemanTest {
 
     @Test
     public void testName(){
-        assertThat (new Gentleman().sayHello("John Doe"), equalTo("Hello John Doe"));
-        assertThat (new Gentleman().sayHello(null), equalTo("Hello Anonymous"));
+        assertEquals("Hello John Doe", new Gentleman().sayHello("John Doe"));
+    }
+
+    @Test
+    void testNameNull(){
+        assertEquals("Hello Anonymous",new Gentleman().sayHello(null));
     }
 }
