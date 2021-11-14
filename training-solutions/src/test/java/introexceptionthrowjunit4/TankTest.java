@@ -4,9 +4,10 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-public class TankTest {
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-    // JUNIT 4.12 van csak az IDEA-ba, ÉS AZ ASSERTTHROWS A 4.13-TÓL VAN AHOGY NÉZTEM
+public class TankTest {
 
     @Test
     public void testAngle() {
@@ -27,5 +28,13 @@ public class TankTest {
         expectedException.expectMessage("The barrel can not turn more than 80 degrees in either way.");
         new Tank().modifyAngle(100);
     }
+
+    @Test
+    public void testAddWrongRuleAssertThrows(){
+        IllegalArgumentException illegalArgumentException = assertThrows(IllegalArgumentException.class,
+                () -> new Tank().modifyAngle(100));
+        assertEquals("The barrel can not turn more than 80 degrees in either way.", illegalArgumentException.getMessage());
+    }
+
 }
 
