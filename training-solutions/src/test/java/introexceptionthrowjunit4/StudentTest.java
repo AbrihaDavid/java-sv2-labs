@@ -4,9 +4,10 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-public class StudentTest {
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-    // JUNIT 4.12 van csak az IDEA-ba, ÉS AZ ASSERTTHROWS A 4.13-TÓL VAN AHOGY NÉZTEM
+public class StudentTest {
 
     @Test
     public void testAddRightNote() {
@@ -27,5 +28,12 @@ public class StudentTest {
         expectedException.expect(IllegalArgumentException.class);
         expectedException.expectMessage("Note must be between 1 and 5!");
         new Student().addNote(7);
+    }
+
+    @Test
+    public void testAddWrongNoteAssertThrows(){
+        IllegalArgumentException illegalArgumentException = assertThrows(IllegalArgumentException.class,
+                () -> new Student().addNote(7));
+        assertEquals("Note must be between 1 and 5!", illegalArgumentException.getMessage());
     }
 }
