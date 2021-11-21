@@ -41,5 +41,5 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [X] 2021-11-16 konzultáció gyakorlati feladat
 * [X] 2021-11-18 konzultáció részvétel/videó
 * [X] 2021-11-18 konzultáció gyakorlati feladat
-* [ ] 2021-11-19 konzultáció részvétel/videó
-* [ ] 2021-11-19 konzultáció gyakorlati feladat
+* [X] 2021-11-19 konzultáció részvétel/videó
+* [X] 2021-11-19 konzultáció gyakorlati feladat
