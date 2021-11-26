@@ -5,6 +5,7 @@ import java.util.List;
 
 public class ChessTournament {
 
+
     private List<Team> teams = Arrays.asList(new Team(), new Team(), new Team());
 
     public void addPlayersToTeams(List<Player> playersRegistrated) {

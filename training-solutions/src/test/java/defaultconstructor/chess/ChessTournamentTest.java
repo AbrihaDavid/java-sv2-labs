@@ -71,5 +71,4 @@ class ChessTournamentTest {
         assertEquals("B", chessTournament.getTeams().get(0).getPlayerTwo().getName());
         assertNull(chessTournament.getTeams().get(2).getPlayerOne());
     }
-
 }

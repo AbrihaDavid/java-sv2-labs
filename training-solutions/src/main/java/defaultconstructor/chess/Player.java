@@ -3,6 +3,7 @@ package defaultconstructor.chess;
 public class Player {
 
     private String name;
+
     private String email;
 
     public void setName(String name) {
