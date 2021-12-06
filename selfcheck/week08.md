@@ -20,7 +20,7 @@ fogtok megismerkedni.
   
 ## Absztrakt osztályok és interfészek
 
-* [ ] [Absztrakt osztályok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29592461-absztrakt-osztalyok)
+* [X] [Absztrakt osztályok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29592461-absztrakt-osztalyok)
 * [ ] Absztrakt osztályok gyakorlati feladat
 
 ## Konzultációk
@@ -29,7 +29,7 @@ fogtok megismerkedni.
 * [X] 2021-11-29 konzultáció gyakorlati feladat
 * [X] 2021-11-30 konzultáció részvétel/videó
 * [X] 2021-11-30 konzultáció gyakorlati feladat
-* [ ] 2021-12-02 konzultáció részvétel/videó
-* [ ] 2021-12-02 konzultáció gyakorlati feladat
-* [ ] 2021-12-03 konzultáció részvétel/videó
-* [ ] 2021-12-03 konzultáció gyakorlati feladat
+* [X] 2021-12-02 konzultáció részvétel/videó
+* [X] 2021-12-02 konzultáció gyakorlati feladat
+* [X] 2021-12-03 konzultáció részvétel/videó
+* [X] 2021-12-03 konzultáció gyakorlati feladat
