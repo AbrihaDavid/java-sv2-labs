@@ -14,16 +14,17 @@ public class IkeaFurniture implements Name, Length, Width{
 
     @Override
     public double getLength() {
-        return 0;
+        return length;
     }
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
     public double getWidth() {
-        return 0;
+        return width;
     }
+
 }

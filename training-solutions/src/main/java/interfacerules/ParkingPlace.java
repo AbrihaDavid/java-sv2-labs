@@ -2,6 +2,7 @@ package interfacerules;
 
 public class ParkingPlace implements Length, Width{
 
+
     @Override
     public double getLength() {
         return 5;

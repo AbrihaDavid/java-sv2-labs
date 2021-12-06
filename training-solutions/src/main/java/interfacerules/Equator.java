@@ -7,11 +7,11 @@ public class Equator implements Name, Length{
 
     @Override
     public double getLength() {
-        return 0;
+        return LENGTH;
     }
 
     @Override
     public String getName() {
-        return null;
+        return NAME;
     }
 }
