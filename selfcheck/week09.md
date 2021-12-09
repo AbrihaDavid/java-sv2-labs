@@ -13,12 +13,12 @@ fogtok megismerkedni.
 * [X] Dependency inversion gyakorlati feladat
 * [X] [Default interfész metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593845-default-interfesz-metodusok)
 * [X] Default interfész metódusok gyakorlati feladat
-* [ ] [Statikus interfész metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593855-statikus-interfesz-metodusok)
-* [ ] Statikus interfész metódusok gyakorlati feladat
-* [ ] [Interfészek és az öröklődés viszonya videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593869-interfeszek-es-az-oroklodes-viszonya)
-* [ ] Interfészek és az öröklődés viszonya gyakorlati feladat
-* [ ] [Absztrakt metódusok implementálása felsorolásos típusokban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593878-absztrakt-metodusok-implementalasa-felsorolasos-tipusokban)
-* [ ] Absztrakt metódusok implementálása felsorolásos típusokban gyakorlati feladat
+* [X] [Statikus interfész metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593855-statikus-interfesz-metodusok)
+* [X] Statikus interfész metódusok gyakorlati feladat
+* [X] [Interfészek és az öröklődés viszonya videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593869-interfeszek-es-az-oroklodes-viszonya)
+* [X] Interfészek és az öröklődés viszonya gyakorlati feladat
+* [X] [Absztrakt metódusok implementálása felsorolásos típusokban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593878-absztrakt-metodusok-implementalasa-felsorolasos-tipusokban)
+* [X] Absztrakt metódusok implementálása felsorolásos típusokban gyakorlati feladat
 * [ ] [Állapotgép videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593882-allapotgep)
 * [ ] Állapotgép gyakorlati feladat
   
@@ -39,4 +39,4 @@ fogtok megismerkedni.
 * [X] 2021-12-07 konzultáció gyakorlati feladat
 * [X] 2021-12-08 konzultáció részvétel/videó
 * [X] 2021-12-08 konzultáció gyakorlati feladat
-* [ ] 2021-12-09 minta vizsga feldatsor
+* [X] 2021-12-09 minta vizsga feldatsor
