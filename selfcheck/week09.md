@@ -19,13 +19,13 @@ fogtok megismerkedni.
 * [X] Interfészek és az öröklődés viszonya gyakorlati feladat
 * [X] [Absztrakt metódusok implementálása felsorolásos típusokban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593878-absztrakt-metodusok-implementalasa-felsorolasos-tipusokban)
 * [X] Absztrakt metódusok implementálása felsorolásos típusokban gyakorlati feladat
-* [ ] [Állapotgép videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593882-allapotgep)
-* [ ] Állapotgép gyakorlati feladat
+* [X] [Állapotgép videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593882-allapotgep)
+* [X] Állapotgép gyakorlati feladat
   
 ## Haladó OO elvek
 
-* [ ] [Polimorfizmus videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593935-polimorfizmus)
-* [ ] Polimorfizmus gyakorlati feladat
+* [X] [Polimorfizmus videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593935-polimorfizmus)
+* [X] Polimorfizmus gyakorlati feladat
 * [ ] [Dinamikus kötés videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593943-dinamikus-kotes)
 * [ ] Dinamikus kötés gyakorlati feladat
 * [ ] [is-a has-a kapcsolatok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29593950-is-a-has-a-kapcsolatok)
