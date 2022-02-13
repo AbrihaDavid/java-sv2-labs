@@ -42,6 +42,7 @@ bemutatottakat kell megcsinálni a videóval együtt!
 * [X] [HAVING - Csoportfeltételek létrehozása videó](https://e-learning.training360.com/courses/take/mariadb/lessons/10192526-having-csoportfeltetelek-letrehozasa)
 * [X] [CREATE - Tábla létrehozása, elsődleges és idegen kulcsok megadása videó](https://e-learning.training360.com/courses/take/mariadb/lessons/10192532-create-tabla-letrehozasa-elsodleges-es-idegen-kulcsok-megadasa)
 
+
 ## Konzultációk
 
 * [X] 2022-02-07 konzultáció részvétel/videó
