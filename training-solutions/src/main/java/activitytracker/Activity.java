@@ -1,11 +1,7 @@
 package activitytracker;
 
 import javax.sql.DataSource;
-import javax.xml.crypto.Data;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Timestamp;
+import java.sql.*;
 import java.time.LocalDateTime;
 
 public class Activity {
@@ -52,4 +48,5 @@ public class Activity {
             throw new IllegalStateException("Cannot query!",se);
         }
     }
+
 }
