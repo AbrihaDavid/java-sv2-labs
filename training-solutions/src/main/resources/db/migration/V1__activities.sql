@@ -1,0 +1,1 @@
+CREATE TABLE activities(id int auto_increment, start_time timestamp, activity_desc varchar(250),activity_type varchar(50), constraint pk_activities primary key (id));

@@ -64,7 +64,7 @@ public class ActivityTrackerMain {
 
         try{
             dataSource.setUrl("jdbc:mariadb://localhost:3306/activitytracker?useUnicode=true");
-            dataSource.setUserName("activitytracker");
+            dataSource.setUser("activitytracker");
             dataSource.setPassword("activitytracker");
         } catch (SQLException se){
             throw new IllegalStateException("Cannot reach database",se);
