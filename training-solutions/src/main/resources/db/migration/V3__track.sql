@@ -1,0 +1,1 @@
+CREATE TABLE track_point(id int, time Date, lat float, lon float,activity_id int, constraint fk_trackpoint primary key (id), foreign key (activity_id) references activities(id));

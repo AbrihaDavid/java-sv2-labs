@@ -3,6 +3,8 @@ package activitytracker;
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
 
@@ -14,20 +16,46 @@ public class ActivityDao {
         this.dataSource = dataSource;
     }
 
+
     public Activity saveActivity(Activity activity){
-        try(Connection connection = dataSource.getConnection();
-            PreparedStatement stmt = connection.prepareStatement("insert into activities(start_time,activity_desc,activity_type) values (?,?,?)",
-                    Statement.RETURN_GENERATED_KEYS)){
-            stmt.setTimestamp(1, Timestamp.valueOf(activity.getStartTime()));
-            stmt.setString(2,activity.getDesc());
-            stmt.setString(3,activity.getActivities().toString());
-            stmt.executeUpdate();
+        try (Connection connection = dataSource.getConnection()) {
 
-            return getActivity(stmt);
+            connection.setAutoCommit(false);
 
-        } catch (SQLException se) {
-            throw new IllegalStateException("Cannot query!",se);
+            try( PreparedStatement stmt = connection.prepareStatement("insert into activities(start_time,activity_desc,activity_type) values (?,?,?)",
+                    Statement.RETURN_GENERATED_KEYS);
+                PreparedStatement stmt2 = connection.prepareStatement("insert into track_point values (?,?,?,?,?)")){
+
+                stmt.setTimestamp(1, Timestamp.valueOf(activity.getStartTime()));
+                stmt.setString(2,activity.getDesc());
+                stmt.setString(3,activity.getActivities().toString());
+                stmt.executeUpdate();
+                connection.commit();
+                Activity result = getActivity(stmt);
+
+                if(!activity.getTrackPoints().isEmpty()){
+                    for(TrackPoint trackPoint: activity.getTrackPoints()){
+                        if(trackPoint.getLat() > 90 || trackPoint.getLat() <-90 || trackPoint.getLon() > 180 || trackPoint.getLon() <-180){
+                            throw new IllegalArgumentException("Invalid coordinate");
+                        }
+                        stmt2.setLong(1,trackPoint.getId());
+                        stmt2.setTimestamp(2, Timestamp.valueOf(trackPoint.getTime()));
+                        stmt2.setFloat(3,(float)trackPoint.getLat());
+                        stmt2.setFloat(4,(float)trackPoint.getLon());
+                        stmt2.setLong(5,result.getId());
+                        stmt2.executeUpdate();
+                    }
+                }
+                connection.commit();
+                return result;
+
+            } catch (IllegalArgumentException iae){
+                connection.rollback();
+            }
+        }catch (SQLException se){
+            throw new IllegalArgumentException("Cannot insert",se);
         }
+        return null;
     }
 
     private Activity getActivity(PreparedStatement stmt) throws SQLException {
