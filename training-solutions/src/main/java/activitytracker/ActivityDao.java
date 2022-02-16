@@ -14,16 +14,33 @@ public class ActivityDao {
         this.dataSource = dataSource;
     }
 
-    public void saveActivity(Activity activity){
+    public Activity saveActivity(Activity activity){
         try(Connection connection = dataSource.getConnection();
-            PreparedStatement stmt = connection.prepareStatement("insert into activities(start_time,activity_desc,activity_type) values (?,?,?)")){
+            PreparedStatement stmt = connection.prepareStatement("insert into activities(start_time,activity_desc,activity_type) values (?,?,?)",
+                    Statement.RETURN_GENERATED_KEYS)){
             stmt.setTimestamp(1, Timestamp.valueOf(activity.getStartTime()));
             stmt.setString(2,activity.getDesc());
             stmt.setString(3,activity.getActivities().toString());
             stmt.executeUpdate();
 
+            return getActivity(stmt);
+
         } catch (SQLException se) {
             throw new IllegalStateException("Cannot query!",se);
+        }
+    }
+
+    private Activity getActivity(PreparedStatement stmt) throws SQLException {
+        try(
+                ResultSet rs = stmt.getGeneratedKeys();
+                ){
+
+            if (rs.next()){
+                Activity result = findActivityById(rs.getLong(1));
+                result.setId(rs.getLong(1));
+                return result;
+            }
+            throw new IllegalStateException("Cannot get id");
         }
     }
 
@@ -39,7 +56,7 @@ public class ActivityDao {
             ){
 
                 if (rs.next()){
-                    return new Activity(rs.getInt(1),rs.getTimestamp(2).toLocalDateTime(),rs.getString(3),Activities.valueOf(rs.getString(4)));
+                    return new Activity(rs.getTimestamp(2).toLocalDateTime(),rs.getString(3),Activities.valueOf(rs.getString(4)));
                 } else{
                     return null;
                 }
@@ -50,7 +67,7 @@ public class ActivityDao {
         }
     }
 
-    public List<Activity> createNewObjectListBasedOnDatabaseRecords(){
+    public List<Activity> listActivities(){
 
         try(Connection connection = dataSource.getConnection();
             Statement stmt = connection.createStatement();
@@ -58,7 +75,7 @@ public class ActivityDao {
 
             List<Activity> result = new ArrayList<>();
             while(rs.next()){
-                result.add(new Activity(rs.getInt(1),rs.getTimestamp(2).toLocalDateTime(),rs.getString(3),Activities.valueOf(rs.getString(4))));
+                result.add(new Activity(rs.getTimestamp(2).toLocalDateTime(),rs.getString(3),Activities.valueOf(rs.getString(4))));
             }
             return result;
 

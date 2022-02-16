@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ActivityTrackerMain {
-
+/*
     public Activity createNewObjectBasedOnId(DataSource dataSource, int id){
 
         try(Connection connection = dataSource.getConnection();
@@ -51,12 +51,14 @@ public class ActivityTrackerMain {
 
     }
 
+ */
+
     public static void main(String[] args) {
 
-        Activity activity1 = new Activity(1, LocalDateTime.of(2022,02,02,8,0),"Biking trip",Activities.BIKING);
-        Activity activity2 = new Activity(2, LocalDateTime.of(2022,02,02,10,0),"Hiking",Activities.HIKING);
-        Activity activity3 = new Activity(3, LocalDateTime.of(2022,02,02,12,0),"Outdoor running",Activities.RUNNING);
-        Activity activity4 = new Activity(4, LocalDateTime.of(2022,02,02,14,0),"Basketball game",Activities.BASKETBALL);
+        Activity activity1 = new Activity(LocalDateTime.of(2022,02,02,8,0),"Biking trip",Activities.BIKING);
+        Activity activity2 = new Activity( LocalDateTime.of(2022,02,02,10,0),"Hiking",Activities.HIKING);
+        Activity activity3 = new Activity(LocalDateTime.of(2022,02,02,12,0),"Outdoor running",Activities.RUNNING);
+        Activity activity4 = new Activity(LocalDateTime.of(2022,02,02,14,0),"Basketball game",Activities.BASKETBALL);
 
 
 
@@ -80,7 +82,7 @@ public class ActivityTrackerMain {
 
 
         ActivityTrackerMain activityTrackerMain = new ActivityTrackerMain();
-
+/*
         Activity activity5 = activityTrackerMain.createNewObjectBasedOnId(dataSource,5);
         System.out.println(activity5.getDesc());
 
@@ -88,6 +90,10 @@ public class ActivityTrackerMain {
 
         List<Activity> activities = activityTrackerMain.createNewObjectListBasedOnDatabaseRecords(dataSource);
         System.out.println(activities.size());
+
+
+
+ */
 
 
 

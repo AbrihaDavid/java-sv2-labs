@@ -6,21 +6,17 @@ import java.time.LocalDateTime;
 
 public class Activity {
 
-    private int id;
+    private long id;
     private LocalDateTime startTime;
     private String desc;
     private Activities activities;
 
-    public Activity(int id, LocalDateTime startTime, String desc, Activities activities) {
-        this.id = id;
+    public Activity(LocalDateTime startTime, String desc, Activities activities) {
         this.startTime = startTime;
         this.desc = desc;
         this.activities = activities;
     }
 
-    public int getId() {
-        return id;
-    }
 
     public LocalDateTime getStartTime() {
         return startTime;
@@ -32,6 +28,14 @@ public class Activity {
 
     public Activities getActivities() {
         return activities;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public void addActivitiesToDatabase(DataSource dataSource){
