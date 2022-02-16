@@ -3,6 +3,8 @@ package activitytracker;
 import javax.sql.DataSource;
 import java.sql.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Activity {
 
@@ -10,6 +12,7 @@ public class Activity {
     private LocalDateTime startTime;
     private String desc;
     private Activities activities;
+    private List<TrackPoint> trackPoints = new ArrayList<>();
 
     public Activity(LocalDateTime startTime, String desc, Activities activities) {
         this.startTime = startTime;
@@ -17,6 +20,9 @@ public class Activity {
         this.activities = activities;
     }
 
+    public void addTrackPoint(TrackPoint trackPoint){
+        trackPoints.add(trackPoint);
+    }
 
     public LocalDateTime getStartTime() {
         return startTime;
@@ -36,6 +42,10 @@ public class Activity {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public List<TrackPoint> getTrackPoints() {
+        return trackPoints;
     }
 
     public void addActivitiesToDatabase(DataSource dataSource){

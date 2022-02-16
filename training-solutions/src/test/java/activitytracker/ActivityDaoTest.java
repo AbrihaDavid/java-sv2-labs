@@ -61,7 +61,25 @@ class ActivityDaoTest {
     @Test
     void saveActivityWithId(){
         Activity activity5 = new Activity(LocalDateTime.of(2022,02,02,16,0),"Running",Activities.RUNNING);
+        activity5.addTrackPoint(new TrackPoint(1,LocalDateTime.now(),40,50));
+        activity5.addTrackPoint(new TrackPoint(2,LocalDateTime.now(),90,51));
+        activity5.addTrackPoint(new TrackPoint(3,LocalDateTime.now(),44,50));
+        activity5.addTrackPoint(new TrackPoint(4,LocalDateTime.now(),45,52));
+
         Activity result = activityDao.saveActivity(activity5);
         assertEquals(5, result.getId());
+    }
+
+    @Test
+    void saveActivityWithIdRollback(){
+        Activity activity5 = new Activity(LocalDateTime.of(2022,02,02,16,0),"Running",Activities.RUNNING);
+        activity5.addTrackPoint(new TrackPoint(1,LocalDateTime.now(),40,50));
+        activity5.addTrackPoint(new TrackPoint(2,LocalDateTime.now(),170,51));
+        activity5.addTrackPoint(new TrackPoint(3,LocalDateTime.now(),44,50));
+        activity5.addTrackPoint(new TrackPoint(4,LocalDateTime.now(),45,52));
+
+        Activity result = activityDao.saveActivity(activity5);
+        assertNull(result);
+
     }
 }
